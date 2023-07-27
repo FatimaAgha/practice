@@ -10,3 +10,15 @@ function sub(){
     let com=parseFloat(fn)-parseFloat(ln)
     document.getElementById("output").innerHTML=com
 }
+function mul(){
+    let fn=document.getElementById("fn").value
+    let ln=document.getElementById("ln").value
+    let com=parseFloat(fn)*parseFloat(ln)
+    document.getElementById("output").innerHTML=com
+}
+function div(){
+    let fn=document.getElementById("fn").value
+    let ln=document.getElementById("ln").value
+    let com=parseFloat(fn)/parseFloat(ln)
+    document.getElementById("output").innerHTML=com
+}
